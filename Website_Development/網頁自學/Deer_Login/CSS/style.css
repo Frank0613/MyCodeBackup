@@ -1,0 +1,251 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /*有這個不管是margin或是Padding都不會改變元素本身大小*/
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+header{
+    position: fixed; /*定位的空間是定在視窗內，所以不管你如何捲動你的視窗卷軸，這個物件就是怎樣都不會換位置*/
+    top:0;
+    left:0;
+    z-index: 2;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("/IMG/background.jpg");    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;/*vh是視窗高度*/
+    background: url("../IMG/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+.logo{
+    font-size: 2em;
+    font-weight:900;
+    color: white;
+    user-select: none;
+}
+.topnavbar a{ /*選裡面所有的a標籤*/  
+    position: relative;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none; /*隱藏a標籤的底線*/
+    margin-left: 40px;
+}
+.topnavbar a::after{ /*不想在HTML顯示但想在CSS可以用這個偽元素*/
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: white;
+    height: 3px;
+    width: 100%;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: 0.5s;
+    /*transform-origin: left;*/
+
+}
+.topnavbar a:hover::after{
+    transform: scaleX(1);
+    /*transform-origin: right;*/
+}
+.loginbtm {
+    padding: 10px 40px;
+    margin-left: 40px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    background: transparent;
+    color:  white;
+    font-size: 1.1em;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer; /*鼠標碰到變手指*/  
+    transition: 0.35s;/*轉場*/ 
+}
+.loginbtm:hover{
+    background-color: white;
+    color: black;
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    border: 2px solid rgba(255, 255, 255,0.5);
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /*超出去的隱藏*/
+    transition: transform 0.3s ease, height 0.2s ease; /*當高度跟大小改變時，這個改變的轉場是0.2s,並且搭配緩和函數ease*/
+    transform: scale(0);
+}
+.wrapper.loginbtm-Down{
+    transform: scale(1);
+}
+.wrapper.active{
+    height: 520px;
+}
+.wrapper .form-box.login{
+    transition: transform 0.2s ease;
+    transform: translateX(0);
+}
+.wrapper.active .form-box.login{
+    transition: none;/*取消轉場效果*/
+    transform: translateX(-400px);
+}
+.wrapper .form-box.register{
+    position: absolute;
+    transform: translateX(400px);
+    transition: none;
+}
+.wrapper.active .form-box.register{
+    transition: transform 0.2s ease;
+    transform: translateX(0);
+}
+.close-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
+.wrapper .form{
+    width: 100%; /*被設置為父元素的100%*/
+    padding: 40px; 
+    
+}
+.form-box h2{
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;
+    color: black;
+}
+.inputbox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    font-weight: 500;
+    color: black;
+    pointer-events: none; /*禁止滑鼠事件*/
+    transition: 0.3s;
+}
+.inputbox input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+
+    font-size: 1em;
+    color: black;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+    
+}
+.inputbox .icon{
+    position: absolute;
+    right: 10px;
+    font-size: 1.2em;
+    color: black;
+    line-height: 55px;
+}
+.inputbox input:focus~label,.inputbox input:valid~label{
+    top: -5px;  
+}
+.remember-forget{
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: -15px 0 15px 0 ;
+    display: flex;
+    justify-content: space-between;   
+}
+.remember-forget label input{
+    accent-color: black;
+    margin-right: 5px;
+}
+.remember-forget a{
+    color: black;
+    text-decoration: none;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+}
+.register-go{
+    text-align: center;
+    font-size: 0.9em;
+    margin: 20px 0 -15px 0 ;
+}
+.register-back{
+    text-align: center;
+    font-size: 0.9em;
+    margin: 7px 0 -5px 0 ;
+} 
+.registertext{
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+.logintext{
+    padding-left: 10px;
+    font-size: 0.9em;
+}   
+.register-go p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.register-back p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.register-go p a:hover{
+    text-decoration: underline;
+}
+.register-back p a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#ground{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+}
+#player{
+    width: 60px;
+    height: 60px;
+    background-color: crimson;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 150px;
+    right: calc(100% - 100px);
+    
+}
+.obstacle{
+    background-color: black;
+    position: absolute;
+    bottom: 150;
+    right: 0;
+
+}
+#Score{
+    margin: 20px 0 0 30px;
+    font-size: 40px;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif;
+}

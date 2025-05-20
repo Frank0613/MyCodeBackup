@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+    
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #006E85;
+    
+}
+.nav-item a:hover {
+  color: #F5DE6F;
+}
+.nav-item a:focus{
+  color: #F5DE6F;
+}
+
+.Imgbackground{
+  background-color: #F0F0C2;
+  background-image: url(../IMG/image\ 32.png);
+  width: 100%;
+  height: 337px;
+  
+}
+.bluetitle{
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  color: #006E85;
+  margin: 0 0 0 21px;
+
+}
+.cardText{
+  
+font-size: 16px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+
+}
+.morebtm{
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0.06em;
+text-align: left;
+color: #00B1C4;
+}
+
+
+.searchinput{
+  padding: 11px 0 11px 20px;
+  width: 75%;
+  font-size: 24px;
+  color: #00B1C4;
+  border-color: #00B1C4;
+  border-style: solid;
+}
+.searchinput::placeholder{
+  color: #00B1C4;
+}
+.searchinput:focus{
+  outline-color:#006E85;
+}
+.subscribeButton{
+  width: 25%;
+  color: white;
+  background-color: #00B1C4;
+  border: none;
+  font-size: 24px;
+}
+.otherside{
+  position: relative;
+  right: 6px;
+}
+.Textandinput{
+  display: flex; 
+  width: 60%;
+}
+.blacksubtext{
+  font-weight: 700; 
+  font-size: 24px;
+}
+.footertext{
+  padding-top: 80px;
+  padding-bottom: 35px;
+}
+@media (min-width: 1409px) {
+  
+  .EmailIcon{
+    position: relative;
+    left: 390px;
+  }
+  
+}
+@media (min-width: 834px) and (max-width: 1409px){
+  .Textandinput{
+    display: flex; 
+    width: 80%;
+  }
+}
+@media (min-width: 390px) and (max-width: 834px){
+  .blacksubtext{
+    font-weight: 700; 
+    font-size: 20px;
+    position: relative;
+    left: 55px;
+  }
+  .Textandinput{
+    display: flex; 
+    width: 100%;
+    position: relative;
+    left: 55px;
+  }
+  .searchinput{
+    padding: 7px 0 7px 20px;
+    width: 75%;
+    font-size: 20px;
+    color: #00B1C4;
+    border-color: #00B1C4;
+    border-style: solid;
+  }
+  .EmailUsText{
+    position: relative;
+    left: 70px;
+  }
+}

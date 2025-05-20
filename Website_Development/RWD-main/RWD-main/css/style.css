@@ -1,0 +1,199 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+.navbar-brand img {
+	height: 40px;
+    width: 135.2px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header li{
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.banner {
+	margin-top: 96px;
+    width: 100%;
+}
+
+.img-fluid{
+   width: 100%;
+    height: auto;
+    
+}
+
+.videoBG{
+    padding: 0;
+    background-image: url(../img/videoBG.png);
+    background-size: cover;
+    display: flex;
+}
+
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.WorldView-text span{
+    font-size: 32px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+}
+
+.WorldView-text p{
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-top: 29px;
+    margin-bottom: 63px;
+    letter-spacing: 1px;
+}
+
+.WorldView-text{
+    margin-top: 241px;
+    
+}
+
+.WorldView-img{
+    margin-top: 51px;
+    padding: 0;
+   
+}
+
+.learnmore{
+    background-color: #6F87AE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+.more{
+    display: flex;
+    justify-content: center;
+}
+
+.learnmore:hover{
+    background-color: #364369;
+
+}
+
+.learnmore p{
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding-left: 6px;
+    
+}
+
+
+
+.roleintro{
+    background-color: #364369;
+    margin-top: 49px;
+    height: 702px;
+    
+}
+
+.alisa img{
+    margin-top: 51px;
+    
+}
+
+
+
+.roleintro-text{
+    margin-top: 150px;
+    margin-left: -40px;
+    
+}
+
+.roleintro-text span{
+    font-size: 32px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.roleintro-text p{
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-top: 29px;
+    margin-bottom: 83px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 300;
+    
+}
+
+
+
+.learnmore1{
+    background-color: #6F87AE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+.learnmore1:hover{
+    background-color: #0A0E2A;
+
+}
+
+.learnmore1 p{
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding-left: 6px;
+}
+
+footer{
+    background-color: #0A0E2A;
+    display: flex;
+    align-items: center;
+    height: 220px;
+    
+}
+
+.footer-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-box p{
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.footericon{
+    width: 157px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+

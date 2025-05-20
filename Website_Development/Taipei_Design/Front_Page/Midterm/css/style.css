@@ -1,0 +1,239 @@
+html
+{
+    box-sizing: border-box;
+}
+*,*::after,*::before
+{
+    box-sizing: inherit;
+}
+
+
+.bg{
+  width: 1800px;
+  height: 2476px;
+  background-image: url("../image/在學學生證明背景.jpg");
+  background-size: cover;
+  
+
+}
+
+ body{
+    margin: 0;
+    width: 1800px;
+    height: 2476px;
+
+ }
+
+ .LogoandIcon{
+    display: flex;
+    align-items: center;
+    height: 140px;
+    background-color: white;
+
+ }
+
+ .Logo{
+    width: 325px;
+    height: 54px;
+    margin-left: 42px;
+
+ }
+
+ .Options{
+    width: 640px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 549px;
+    margin-right: 46px;
+    
+    
+ }
+
+ .OptionsWord{
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bolder;
+    color: #13438D;
+    margin-right: 7px;
+    cursor: pointer;
+
+ }
+
+ .line_login{
+    width: 2px;
+    height: 20px;
+    background-color: #13438D;
+    margin-right: 7px;
+
+ }
+
+ .Icon{
+    width: 114px;
+    height: 41.77px;
+    margin-right: 77px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .iconbtn1 , .iconbtn{
+   cursor: pointer;
+ }
+
+ .meun{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 140px;
+    background-color: #C4DBFF;
+    padding-left: 94px;
+    padding-right: 94px;
+    padding-bottom: 10px;
+ }
+
+
+ .meunword{
+    height: 32px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #13438D;
+    cursor: pointer;
+ }
+
+ .schoolphoto{
+    width: 1800px;
+    height: 676px;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(255, 255, 255, 0.75);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25); /*陰影 x軸 y軸 模糊度 顏色(最後一個是透明度)*/
+    
+ }
+
+ .mainimg{
+    width: 996px;
+    height: 676px;
+    
+ }
+
+ .MediaAndAwards{
+    width: 1800px;
+    height: 1200px;
+    background-color:rgb(196, 219, 255, 0.75);
+ }
+
+ .Media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .MediaPhoto{
+    width: 794px;
+    height: 600px;
+    
+ }
+
+ .MediaWord{
+    width: 408px;
+    height: 600px;
+    background-color:rgb(255, 255, 255, 0.75);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #13438D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+ }
+
+ .Awards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .AwardsWord{
+    width: 408px;
+    height: 600px;
+    background-color:rgb(255, 255, 255, 0.75);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #13438D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /*滑鼠效果*/
+ }
+
+ .AwardsPhoto{
+    width: 794px;
+    height: 600px;
+ }
+
+ .other{
+    width: 1800px;
+    
+ }
+
+ .announce , .school , .covid , .recruit{
+    width: 1800px;
+    height: 80px;
+    background-color:rgb(255, 255, 255, 0.75);
+    display: flex;
+    align-items: center;
+ }
+
+ .OtherWord{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #13438D;
+    padding-left: 436px;
+ }
+
+ .smallWord{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #13438D;
+    padding-left: 749px;
+    cursor: pointer;
+ }
+
+ .footer-box{
+    height: 118px;
+    display: flex;
+    align-items: center;
+    background-color: #C4DBFF;
+ }
+
+ .footerword{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #13438D;
+    padding-left: 304px;
+    letter-spacing: 2.15px; /*字距*/
+ }
+
+ .footerIcon{
+    width: 262px;
+    height: 33.6px;
+    display: flex;
+    padding-left: 42px;
+ }
+
+ .lineBtn , .fbBtn , .twitterBtn {
+    padding-right: 42.5px;
+    cursor: pointer;
+
+ }
+
+ .ytBtn{
+   cursor: pointer;
+ }

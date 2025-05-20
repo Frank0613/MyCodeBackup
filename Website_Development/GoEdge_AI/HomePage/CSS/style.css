@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+    
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #006E85;
+    
+}
+.nav-item a:hover {
+  color: #F5DE6F;
+}
+.nav-item a:focus{
+  color: #F5DE6F;
+}
+.gradient-bottom {
+  position: relative;
+}
+
+.gradient-bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* 設定漸層高度，根據需要調整 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+  
+}
+.ServiceIcon{
+  width: 70%;
+  height: 70%;
+  padding: 10px;
+  
+  
+}
+.imgborder{
+  width: 125px;
+  height: 125px;
+  background-color: #00B1C4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  line-height: 2;
+}
+.ServiceTitle{
+  line-height: 30px;
+  color: #00B1C4;
+  font-weight: 400;
+  font-size: 24px;
+  overflow-y: hidden;
+}
+.deepbluetitle{
+  font-size: 36px; 
+  font-weight: 700; 
+  color: #006E85;
+}
+.UnderVideoText{
+  border-style: solid;
+  border-color: #00B1C4;
+  border-width:1.2px;
+  color: #00B1C4;
+  font-weight: 700;
+  font-size: 100%;
+  line-height: 32px;
+}
+.devContent{
+  display: flex;
+  justify-content: start;
+  border-style: solid;
+  border-color: #00B1C4;
+  border-width: 1.2px;
+}
+.devContentTitle{
+  
+  width: 200px;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  background-color: #00B1C4;
+  color: white;
+  
+}
+
+.newsContent{
+  line-height: 48px;
+  font-size: 24px;
+  letter-spacing: 3.5%;
+  
+  text-align: start;
+}
+.topbtn{
+  position: relative;
+  bottom: 20px;
+}
+.searchinput{
+  padding: 11px 0 11px 20px;
+  width: 75%;
+  font-size: 24px;
+  color: #00B1C4;
+  border-color: #00B1C4;
+  border-style: solid;
+}
+.searchinput::placeholder{
+  color: #00B1C4;
+}
+.searchinput:focus{
+  outline-color:#006E85;
+}
+.subscribeButton{
+  width: 25%;
+  color: white;
+  background-color: #00B1C4;
+  border: none;
+  font-size: 24px;
+}
+.otherside{
+  position: relative;
+  right: 6px;
+}
+.Textandinput{
+  display: flex; 
+  width: 60%;
+}
+.blacksubtext{
+  font-weight: 700; 
+  font-size: 24px;
+}
+.footertext{
+  padding-top: 80px;
+  padding-bottom: 35px;
+}
+@media (min-width: 1409px) {
+  .devContentTitle{
+    position: relative;
+    right: 19.9%;
+  }
+  .devContent{
+    width: 53.125%
+  }
+  .GoedgeAiTitle {
+    position: relative;
+    bottom: 150px;
+  }
+  .EmailIcon{
+    position: relative;
+    left: 390px;
+  }
+  .img4{
+    position: relative;
+    bottom: 20px;
+    right: 100px;
+  }
+  .deepbluetitleMove{
+    position: relative;
+    right: 150px;
+  }
+  .researchText{
+    font-size: 24px;
+  }
+  .newsmore{
+    position: relative;
+    left: 340px;
+  }
+  .video{
+    
+    width: 73.25%; 
+    height: 474px;
+  }
+}
+@media (min-width: 834px) and (max-width: 1409px){
+  
+  .video {
+    /* 在 md 視窗大小套用的屬性 */
+    width: 100%;
+    height: 300px;
+  }
+  .UnderVideoText{
+    font-size: 14px;
+  }
+  .devContentTitle{
+    position: relative;
+    right: 182px;
+  }
+  .devContent{
+    width: 61%
+  }
+  .newsmore{
+    position: relative;
+    left: 615px;
+  }
+  .devContentTitle{
+    position: relative;
+    right: 155px;
+    }
+  .Icontitle{
+    position: relative;
+    right:60px;
+  }
+  .Textandinput{
+    display: flex; 
+    width: 80%;
+  }
+}
+@media (min-width: 390px) and (max-width: 834px){
+  .Icontitle{
+    position: relative;
+    right:40px;
+    
+  }
+  .newsmore{
+    position: relative;
+    left: 270px;
+  }
+  .blacksubtext{
+    font-weight: 700; 
+    font-size: 20px;
+    position: relative;
+    left: 55px;
+  }
+  .Textandinput{
+    display: flex; 
+    width: 100%;
+    position: relative;
+    left: 55px;
+  }
+  .searchinput{
+    padding: 7px 0 7px 20px;
+    width: 75%;
+    font-size: 20px;
+    color: #00B1C4;
+    border-color: #00B1C4;
+    border-style: solid;
+  }
+  .EmailUsText{
+    position: relative;
+    left: 70px;
+  }
+  .devContent{
+    width: 100%;
+  }
+}

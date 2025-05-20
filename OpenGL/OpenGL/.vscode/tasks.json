@@ -1,0 +1,54 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile",
+      "command": "clang++",
+      "args": [
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.exe",
+        "-g",
+        "-Wall",
+        "-static-libgcc",
+        "-fcolor-diagnostics",
+        "--target=i686-w64-mingw",
+        "-std=c++17",
+        "-lopengl32",
+        "-lglu32",
+        "-lfreeglut",
+        "opencv_calib3d2413d.lib",
+        "opencv_contrib2413d.lib",
+        "opencv_core2413d.lib",
+        "opencv_features2d2413d.lib",
+        "opencv_flann2413d.lib",
+        "opencv_gpu2413d.lib",
+        "opencv_highgui2413d.lib",
+        "opencv_imgproc2413d.lib",
+        "opencv_legacy2413d.lib",
+        "opencv_ml2413d.lib",
+        "opencv_nonfree2413d.lib",
+        "opencv_objdetect2413d.lib",
+        "opencv_ocl2413d.lib",
+        "opencv_photo2413d.lib",
+        "opencv_stitching2413d.lib",
+        "opencv_superres2413d.lib",
+        "opencv_ts2413d.lib",
+        "opencv_video2413d.lib",
+        "opencv_videostab2413d.lib"
+      ],
+      "type": "shell",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+      // "problemMatcher":"$gcc"
+    }
+  ]
+}

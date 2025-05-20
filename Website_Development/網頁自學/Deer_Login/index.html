@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="./IMG/LOGO.ico">
+    <link rel="stylesheet" href="./CSS/style.css"><!--action代表單的資料要傳去哪裡-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@700&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        <h2 class="logo">LOGO</h2>
+        <nav class="topnavbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="loginbtm">Login</button>
+        </nav>
+    </header>
+    
+    <div class="wrapper">
+        <span class="close-icon"><ion-icon name="close-outline"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#"> <!--action代表單的資料要傳去哪裡-->
+                <div class="inputbox">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span> <!--單純文字容器-->
+                    <input type="email" required> <!--required代表必填-->
+                    <label>Email</label> <!--每個表單都會有一個label，當label被點擊時這個表單會獲得焦點-->
+                </div>
+                <div class="inputbox">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span> <!--單純文字容器-->
+                    <input type="password" required> <!--required代表必填-->
+                    <label>Password</label> <!--每個表單都會有一個label，當label被點擊時這個表單會獲得焦點-->
+                </div>
+                
+                <div class="remember-forget">
+                    <label><input type="checkbox">remember me</label>
+                    <a href="#">Forget Password?</a>
+                </div>
+
+                <button type="submit" class="btn">Login</button>
+
+                <div class="register-go">
+                    <p>Don't have an account?<a href="#" class="registertext">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#"> <!--action代表單的資料要傳去哪裡-->
+                <div class="inputbox">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span> <!--單純文字容器-->
+                    <input type="text" required> <!--required代表必填-->
+                    <label>Username</label> <!--每個表單都會有一個label，當label被點擊時這個表單會獲得焦點-->
+                </div>
+                <div class="inputbox">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span> <!--單純文字容器-->
+                    <input type="email" required> <!--required代表必填-->
+                    <label>Email</label> <!--每個表單都會有一個label，當label被點擊時這個表單會獲得焦點-->
+                </div>
+                <div class="inputbox">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span> <!--單純文字容器-->
+                    <input type="password" required> <!--required代表必填-->
+                    <label>Password</label> <!--每個表單都會有一個label，當label被點擊時這個表單會獲得焦點-->
+                </div>
+                
+                <div class="remember-forget">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                    
+                </div>
+
+                <button type="submit" class="btn">Register</button>
+
+                <div class="register-back">
+                    <p>I already have an account?<a href="#" class="logintext">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./JS/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <!--這兩行是Icon網站的，可以直接取得ICON-->
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

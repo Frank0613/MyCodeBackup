@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Predict</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@700&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="outside">
+        <div class="search">
+            <input class="searchinput" type="text" placeholder="Enter City Name" spellcheck="false"><!--placeholder是input裡面的字、spellcheck是拼寫檢查-->
+            <button class="searchbtm"><img src="./IMG/search.png" alt="search"></button>
+        </div>
+        <div class="error">
+            <p>Wrong City name</p>
+        </div>
+        <div class="weather">
+            <img class="weathericon" src="./IMG/clear.png" alt="WeatherIcon">
+            <p class="temperature">7℃</p>
+            <p class="city">New York</p>
+            <div class="detail">
+                <div class="humidity">
+                    <img class="humiIMG" src="./IMG/humidity.png" alt="Humidity">
+                    <div class="humiinfo">
+                        <p class="humitext">48%</p>
+                        <pre class="Humisign">Humidity</pre>
+                    </div>
+                </div>
+                <div class="windspeed">
+                    <img class="speedIMG" src="./IMG/wind.png" alt="wind">
+                    <div class="windinfo">
+                        <pre class="windtext">10.29 Km/h</pre>
+                        <pre class="Windsign">wind Speed</pre>
+                    </div>  
+                </div>           
+            </div>
+        </div>               
+    </div>
+    <script src="./JS/Script.js"></script>
+</body>
+</html>

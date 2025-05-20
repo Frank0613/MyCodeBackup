@@ -1,0 +1,129 @@
+/*當裝置小於768px 大於381 平板寬度*/
+@media only screen and (min-width: 321px) and (max-width: 768px){
+    html{
+        width: 100%;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    
+    .navbar-brand img {
+        height: 40px;
+        width: 135.2px;
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    header li{
+        margin-right: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+    }
+    
+    .banner {
+        margin-top: 96px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .img-fluid{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .videoBG{
+        padding: 0;
+        background-image: url(../img/videoBG.png);
+        background-size: cover;
+        display: flex;
+        width: auto;
+        margin: 0;
+    }
+
+    .video{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        
+    }
+
+    .WorldView-text span{
+        font-size: 32px;
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 500;
+        margin-left: 225px;
+        
+    }
+    
+    .WorldView-text p{
+        font-size: 19px;
+        font-family: 'Noto Sans TC', sans-serif;
+        margin-top: 28px;
+        margin-bottom: 28px;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 23px;
+    }
+    
+    .WorldView-text{
+        margin-top: 49px;
+        margin-left: -10px;
+       
+
+    }
+    
+    .WorldView-img{
+        margin-top: 51px;
+       
+    }
+
+    .learnmore{
+        background-color: #6F87AE;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 64px;
+        height: 24px;
+        margin-left: 400px;
+        cursor: pointer;
+    }
+    
+    .learnmore:hover{
+        background-color: #364369;
+    
+    }
+    
+    .learnmore p{
+        margin: 0;
+        font-size: 12px;
+        color: #fff;
+        font-family: 'Noto Sans TC', sans-serif;
+        padding-left: 6px;
+        
+    }
+
+    .learnmore img{
+        width: 19px;
+    }
+    
+    .WorldView-img{
+        margin-top: 46px;
+        width: 100%;
+        height: auto;
+       
+    }
+
+
+
+}

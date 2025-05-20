@@ -1,0 +1,238 @@
+.firstrow{
+    width: 1280px;
+    height: 100px;
+    background-color: #D66161;
+    display: flex;
+    align-items: center;
+}
+.HouseIcon{
+    margin-left: 28px;
+}
+.HomePage{
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0 0 0 478px;
+
+}
+.searchIcon{
+    margin-left: 260px;
+}
+.Login{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin:0 0 0 33px;
+}
+.menuIcon{
+    margin-left: 33px;
+}
+.Secrow{
+    width: 1280px;
+    height: 311px;
+    background-image: url("../Img/Brick.png"); 
+}
+.postword, .brickword{
+    display: flex;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.Wpost{
+    color: #FFFFFF;
+    margin: 71px 0 0 397px;
+    position: relative;
+    z-index: 1;
+}
+.Bpost{
+    margin: 0;
+    position: relative;
+    top: 90px;
+    right:405px;
+    z-index: 0;
+}
+.WBRICK{
+    color: #FFFFFF;
+    margin:-30px 0 0 756px;
+    position: relative;
+    z-index: 1;
+}
+.BBRICK{
+    margin: 0;
+    position: relative;
+    top: -20px;
+    right: 452px;
+    z-index: 0;
+}
+.ThirdRow{
+    width: 1280px;
+    height: 1795px;
+    background-color: #FFC0C0;
+}
+.third-1, .third-2, .third-3{
+    display: flex;
+}
+.Title{
+    font-size: 64px;
+    font-family: Arial,'Noto Sans TC', Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 0 60px 0;
+}
+.Text{
+    font-size: 36px;
+    font-family: Arial,'Noto Sans TC', Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+span{
+    font-weight: bold;
+}
+.photo{
+    width: 500px;
+    height: 333px;
+}
+.third-1{
+    margin:0;
+    padding: 208px 0 123px 51px;
+}
+.third-3{
+    padding-left: 51px;
+}
+.Text1{
+    width: 498px;
+    margin-left:169px;
+}
+.Text2{
+    width: 558px;
+    margin: 0 115px 153px 51px;
+}
+.Text3{
+    width: 503px;
+    margin-left: 165px; 
+}
+.third-4{
+    width: 206px;
+    height: 92px;
+    background-color: #FF8181;
+    border-radius: 46px;
+    margin: 92px 0 0 537px;
+}
+.more{
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 30px 0 0 39px;
+}
+.fourthrow{
+    background-image: url("../Img/House.png");
+    width: 1280px;
+    height: 571px;
+    font-size: 96px;
+    font-family: Arial,'Noto Sans TC', Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -40px;
+}
+.buildtext, .yourtext, .housetext{
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+.Wbuild{
+    color: #FFFFFF;
+    margin: 109px 0 0 480px;
+    position: relative;
+    z-index: 2;
+}
+.Bbuild{
+    position: relative;
+    z-index: 1;
+    left: -276px;
+    top: 25px;
+}
+.Rbuild{
+    color: #D66161;
+    position: relative;
+    z-index: 0;
+    left: -610px;
+    top: 3px;
+}
+.Wyour{
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+    top: -75px;
+    margin: 0 0 0 490px;
+}
+.Byour{
+    position: relative;
+    z-index: 1;
+    top: -160px;
+    left: -257px;
+}
+.Ryour{
+    color: #D66161;
+    position: relative;
+    z-index: 0;
+    top: -184px;
+    left: -578px;
+}
+.Whouse{
+    color:#FFFFFF;
+    position: relative;
+    z-index: 2;
+    margin: 0 0 0 463px;
+    top: -263px;
+}
+.Rhouse{
+    color: #D66161;
+    position: relative;
+    z-index: 0;
+    top: -368px;
+    left: -704px;
+}
+.Bhouse{
+    position: relative;
+    z-index: 1;
+    top: -347px;
+    left: -324px;
+}
+.fifthrow{
+    width: 1280px;
+    height: 226px;
+    background-color: #D66161;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    top: -40px;
+}
+.left{
+    margin-top: 45px;
+    margin-right: 478px;
+}
+.information{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin: 0px 0 31px 50px;
+}
+a{
+    color: #FFFFFF;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+.FB{
+    margin-left: 80px;  
+}
+.Twitter{
+    margin-left: 70px;
+}
+.store{
+    margin-left: 71px;
+}

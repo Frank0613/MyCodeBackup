@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.box{
+    width: 50vh;
+    height: 50vh;
+    background-color: brown;
+    
+}
+.boxChild{
+    width: 50%;
+    height: 50%;
+    background-color: gainsboro;
+}

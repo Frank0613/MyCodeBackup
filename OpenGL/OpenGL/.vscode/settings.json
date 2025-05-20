@@ -1,0 +1,63 @@
+{
+  "files.defaultLanguage": "cpp",
+  "editor.formatOnType": true,
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "c": "cd $dir && clang $fileName -o $fileNameWithoutExt.exe -Wall -g -Og -static-libgcc -fcolor-diagnostics --target=x86_64-w64-mingw32 -std=c11 && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && clang++ $fileName -o $fileNameWithoutExt.exe -Wall -g -Og -static-libgcc -fcolor-diagnostics --target=x86_64-w64-mingw32 -std=c++17 -lopengl32 -lglu32 -lfreeglut && $dir$fileNameWithoutExt"
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": true,
+  "code-runner.clearPreviousOutput": false,
+  "C_Cpp.clang_format_sortIncludes": true,
+  "C_Cpp.intelliSenseEngine": "Default",
+  "C_Cpp.errorSquiggles": "Disabled",
+  "C_Cpp.autocomplete": "Default",
+  "[cpp]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "[c]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "clang.cflags": ["--target=x86_64-w64-mingw32", "-std=c11", "-Wall"],
+  "clang.cxxflags": ["--target=x86_64-w64-mingw32", "-std=c++17", "-Wall"],
+  "clang.completion.enable": true,
+  "files.associations": {
+    "cmath": "cpp",
+    "__config": "cpp",
+    "__threading_support": "cpp",
+    "__verbose_abort": "cpp",
+    "cctype": "cpp",
+    "cstddef": "cpp",
+    "cstdint": "cpp",
+    "cstdlib": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "cwchar": "cpp",
+    "cwctype": "cpp",
+    "execution": "cpp",
+    "initializer_list": "cpp",
+    "iosfwd": "cpp",
+    "limits": "cpp",
+    "new": "cpp",
+    "ratio": "cpp",
+    "stdexcept": "cpp",
+    "tuple": "cpp",
+    "typeinfo": "cpp",
+    "variant": "cpp",
+    "algorithm": "cpp",
+    "vector": "cpp",
+    "string": "cpp",
+    "iostream": "cpp"
+  }
+}

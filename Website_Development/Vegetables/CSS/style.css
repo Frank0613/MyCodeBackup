@@ -1,0 +1,145 @@
+
+.Background{
+    background-color: #edf2c5;
+    height: 880px;
+    width: 1260px;
+    
+}
+.FirstRow{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+.BigHeader{
+    color:#778a50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    width: 271px;
+    height: 62px;
+    margin: 0;
+    padding: 36px 459px 0 160px;
+}
+.MediaAndButtom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 60px;
+}
+.Media{
+    margin-left: 10px;
+    height: 25px;
+}
+.line{
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+    margin-left: 10px;
+    
+}
+.Buttom{
+    color: #778a50;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border: solid 1px #778a50;
+    border-radius: 3px;
+    margin: 0 0 0 10px;
+    padding: 5px 7px;
+}
+.Menutext{
+    color: #edf2c5 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+}
+.Menu{
+    width: 940px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    background-color: #778a50;
+    border-radius: 3px;
+    margin: 0 0 20px 160px;
+}
+.PumpkinImg{
+    margin-left: 160px;
+    display: flex;
+    align-content: center;
+}
+.FourthRow{
+    margin-left: 108px;
+    display: flex;
+    flex-direction: row;
+}
+.LitHeaCon{
+    background-color: #778a50;
+    width: 444px;
+    height: 45;
+    margin: 30px 0 15px 52px;
+    border-radius: 3px;
+    
+}
+.LittleHader{
+    color: #edf2c5 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 10px 316px 12px 30px;
+}
+.FifthRow{
+    margin-left: 148px;
+    display: flex;
+    flex-direction: row;
+}
+.VegetablesIMG{
+    display: flex;
+    align-items: baseline;
+}
+.IMG{
+    margin-left: 12px;
+}
+.right{
+    width: 444px;
+    height: 140px;
+    margin: 0 160px 0 52px;
+    background-color: #f7fbda;
+    border-radius: 3px;
+}
+.longline{
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    margin: 15px;
+}
+.text{
+    color: #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 15px;
+}
+.EmailPhoneNum{
+    color: #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 15px 232px 15px 15px;
+}
+.SixRowCon{
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+.SixRow{
+    color: #edf2c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 23px 479px 23px 480px;
+}

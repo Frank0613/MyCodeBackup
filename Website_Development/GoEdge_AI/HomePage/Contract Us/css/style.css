@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans HK', sans-serif;
+    /*overflow-x: hidden;*/
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #006E85;
+    
+}
+.nav-item a:hover {
+  color: #F5DE6F;
+}
+.nav-item a:focus{
+  color: #F5DE6F;
+}
+
+.Ban1{
+    padding-top: 93px;
+    padding-bottom: 115px;
+    background: url(../img/BG1.png);
+    background-size: cover;
+    
+   
+}
+
+.connection{
+    border: 3px solid #00B1C4;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: white;
+   
+}
+
+.title{
+    font-weight: 700;
+    font-size: 2em;
+    color: #006E85;
+    padding-top: 68px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.sub-title{
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #006E85;
+    margin: 0;
+}
+
+.form-control{
+    border-radius: 10px;
+    border: 1px solid #00B1C4;
+}
+
+.form-control::placeholder{ /*表單初始字*/
+    color: #00B1C4;
+    font-weight: lighter;
+}
+
+.form-select{
+    width:100%;
+    height: 68%;
+    border-radius: 10px;
+    border: 1px solid #00B1C4;
+}
+
+.DropDownMenu select{
+    padding-left: 12px;
+
+}
+
+.select-text{
+    color: #00B1C4;
+}
+
+.Name, .Phone{
+    padding-top: 60px;
+}
+
+.Company, .Job, .DropDownMenu{
+    padding-top: 15px;
+}
+
+.email{
+    padding-top: 30px;
+}
+
+.btn{
+    background: #F5DE6F;
+    border: 2px solid #00B1C4;
+    border-radius: 20px;
+    width: 20%;
+    margin-top: 25px;
+    margin-bottom: 63px;
+    color: #006E85;
+    font-weight: 700;
+}
+
+.Ban2{
+    background:  #006E85;
+    
+}
+
+.Map{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 60px;
+    margin-right: 67px;
+    
+}
+
+.MapInformation{
+    padding-top: 180px;
+}
+
+.Headline{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #F5DE6F;
+    letter-spacing: 0.3em;
+}
+
+.subtitle{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #F0F0C2;
+    letter-spacing: 0.035em;
+}
+
+.text{
+    font-size: 1em;
+    font-weight: lighter;
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+}
+
+
+.footerContainer{
+    padding-top: 45px;
+}
+
+.searchinput{
+    padding: 11px 0 11px 20px;
+    width: 75%;
+    font-size: 24px;
+    color: #00B1C4;
+    border-color: #00B1C4;
+    border-style: solid;
+  }
+  .searchinput::placeholder{
+    color: #00B1C4;
+  }
+  .searchinput:focus{
+    outline-color:#006E85;
+  }
+  .subscribeButton{
+    width: 25%;
+    color: white;
+    background-color: #00B1C4;
+    border: none;
+    font-size: 24px;
+  }
+  .otherside{
+    position: relative;
+    right: 6px;
+  }
+  .Textandinput{
+    display: flex; 
+    width: 60%;
+  }
+  .blacksubtext{
+    font-weight: 700; 
+    font-size: 24px;
+  }
+
+  .footertext{
+    padding-top: 80px;
+    padding-bottom: 35px;
+  }
+
+/*大視窗*/
+@media(min-width: 1409px){
+    .EmailIcon{
+        position: relative;
+        left: 390px;
+      }
+}
+
+/*中視窗*/
+@media (min-width: 834px) and (max-width: 1409px){
+    
+    
+    .connection{
+        padding-left: 35px;
+        padding-right: 35px;
+        overflow: hidden;
+    }
+
+    .DropDownMenu{
+        padding-top: 25px;
+    }
+    
+    .btn{
+        background: #F5DE6F;
+        border: 2px solid #00B1C4;
+        border-radius: 20px;
+        width: 20%;
+        margin-top: 25px;
+        margin-bottom: 63px;
+        color: #006E85;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+
+    
+
+    .Map{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        margin: 0;
+        overflow: hidden;
+       
+    }
+
+    .MapInformation{
+        padding-top: 70px;
+        padding-left: 90px;
+        overflow: hidden;
+    }
+
+    .Textandinput{
+        display: flex; 
+        width: 80%;
+      }
+
+      .footertext{
+        padding-top: 80px;
+        padding-bottom: 35px;
+      }
+
+      .footerContainer{
+        padding-left: 45px;
+    }
+
+   
+
+}
+
+/*小視窗*/
+@media (min-width: 390px) and (max-width: 834px){
+    .connection{
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .sub-title{
+        font-weight: 400;
+        font-size: 1em;
+        color: #006E85;
+        margin: 0;
+    }
+    
+    .Name{
+        padding-top: 15px;
+    }
+    
+    .Phone{
+        padding-top: 15px;
+    }
+
+
+    .btn{
+        background: #F5DE6F;
+        border: 2px solid #00B1C4;
+        border-radius: 20px;
+        width: 25%;
+        margin-top: 25px;
+        margin-bottom: 63px;
+        color: #006E85;
+        font-weight: 700;
+        font-size: 1.1em;
+    }
+
+    .Map{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        margin: 0;
+    
+       
+    }
+
+    .MapInformation{
+        padding-top: 70px;
+        padding-left: 44px;
+    }
+
+    .blacksubtext{
+        font-weight: 700; 
+        font-size: 20px;
+        position: relative;
+        left: 55px;
+      }
+      .Textandinput{
+        display: flex; 
+        width: 100%;
+        position: relative;
+        left: 55px;
+      }
+      .searchinput{
+        padding: 7px 0 7px 20px;
+        width: 75%;
+        font-size: 20px;
+        color: #00B1C4;
+        border-color: #00B1C4;
+        border-style: solid;
+      }
+      .EmailUsText{
+        position: relative;
+        left: 70px;
+
+      }
+
+      .footertext{
+        padding-top: 80px;
+        padding-bottom: 35px;
+      }
+
+    
+}
+
+    
